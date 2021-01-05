@@ -1,0 +1,77 @@
+<MapDefinitions>
+
+	<MapDefinition name="Island" width="20" height="30" fillTile="Grass" edgeTile="Water">
+		<GenerationSteps>
+			<FromImage iterations="1" ImageFileName="testImage3.png" uAlignment="0.5~0.5" vAlignment="0.5~0.5" rotations="0"/>
+			<!--
+			<Worm iterations="2" setTile="Lava" wormLength="10"/>
+			<Mutate iterations="1" ifTile="Grass" setTile="Stone" chanceToMutate="0.6" chancePerTile ="0.6"/>
+			<Mutate chanceToRun="1" iterations="1" ifTile="Stone" setTile="Lava" chanceToMutate="0.3" chancePerTile ="0.3"/>
+			<CellularAutomata chanceToRun="1" iterations="1" ifTileType="Grass" ifNeighborTileType ="Grass" setTile="Stone" numOfNeighbors="1~999" chancePerTile ="0.3"/>
+			<FromImage iterations="1" fromImageFilePath="Data/Images/FromImageTest_JMSWUZHERE.png" uAlignment="0.0~0.0" vAlignment="0.0~0.0" rotations="0"/>
+			-->
+		</GenerationSteps>
+	</MapDefinition>
+	
+	<MapDefinition name="MutateSample" width="20" height="30" fillTile="Grass" edgeTile="Stone">
+		<GenerationSteps>
+			<Mutate iterations="1" ifTile="Grass" setTile="Stone" chanceToMutate="0.6" chancePerTile ="0.6"/>
+			<!--
+			<Worm iterations="2" setTile="Lava" wormLength="10"/>
+			<FromImage iterations="1" ImageFileName="testImage4.png" uAlignment="0.5~0.5" vAlignment="0.5~0.5" rotations="0"/>
+			<Mutate chanceToRun="1" iterations="1" ifTile="Stone" setTile="Lava" chanceToMutate="0.3" chancePerTile ="0.3"/>
+			<CellularAutomata chanceToRun="1" iterations="1" ifTileType="Grass" ifNeighborTileType ="Grass" setTile="Stone" numOfNeighbors="1~999" chancePerTile ="0.3"/>
+			<FromImage iterations="1" fromImageFilePath="Data/Images/FromImageTest_JMSWUZHERE.png" uAlignment="0.0~0.0" vAlignment="0.0~0.0" rotations="0"/>
+			-->
+		</GenerationSteps>
+	</MapDefinition>
+	
+	<MapDefinition name="WormsSample" width="20" height="30" fillTile="Grass" edgeTile="Water">
+		<GenerationSteps>
+			<Worm iterations="2" setTile="Lava" wormLength="10" numWorms = "20~35"/>
+			<!--
+			<FromImage iterations="1" ImageFileName="testImage4.png" uAlignment="0.5~0.5" vAlignment="0.5~0.5" rotations="0"/>
+			<Mutate iterations="1" ifTile="Grass" setTile="Stone" chanceToMutate="0.6" chancePerTile ="0.6"/>
+			<Mutate chanceToRun="1" iterations="1" ifTile="Stone" setTile="Lava" chanceToMutate="0.3" chancePerTile ="0.3"/>
+			<CellularAutomata chanceToRun="1" iterations="1" ifTileType="Grass" ifNeighborTileType ="Grass" setTile="Stone" numOfNeighbors="1~999" chancePerTile ="0.3"/>
+			<FromImage iterations="1" fromImageFilePath="Data/Images/FromImageTest_JMSWUZHERE.png" uAlignment="0.0~0.0" vAlignment="0.0~0.0" rotations="0"/>
+			-->
+		</GenerationSteps>
+	</MapDefinition>
+	
+	<MapDefinition name="AutomataSample" width="20" height="30" fillTile="Grass" edgeTile="Lava">
+		<GenerationSteps>
+			<CellularAutomata chanceToRun="1" iterations="1" ifTileType="Grass" ifNeighborTileType ="Grass" setTile="Water" numOfNeighbors="1~999" chancePerTile ="0.3"/>
+			<!--
+			<FromImage iterations="1" ImageFileName="testImage4.png" uAlignment="0.5~0.5" vAlignment="0.5~0.5" rotations="0"/>
+			<Worm iterations="2" setTile="Lava" wormLength="10"/>
+			<Mutate iterations="1" ifTile="Grass" setTile="Stone" chanceToMutate="0.6" chancePerTile ="0.6"/>
+			<Mutate chanceToRun="1" iterations="1" ifTile="Stone" setTile="Lava" chanceToMutate="0.3" chancePerTile ="0.3"/>
+			<FromImage iterations="1" fromImageFilePath="Data/Images/FromImageTest_JMSWUZHERE.png" uAlignment="0.0~0.0" vAlignment="0.0~0.0" rotations="0"/>
+			-->
+		</GenerationSteps>
+	</MapDefinition>
+	
+	<MapDefinition name="ImageSample" width="20" height="30" fillTile="Grass" edgeTile="Water">
+		<GenerationSteps>
+			<FromImage iterations="1" ImageFileName="testImage4.png" uAlignment="0.5~0.5" vAlignment="0.5~0.5" rotations="0"/>
+			<!--
+			<Worm iterations="2" setTile="Lava" wormLength="10"/>
+			<Mutate iterations="1" ifTile="Grass" setTile="Stone" chanceToMutate="0.6" chancePerTile ="0.6"/>
+			<Mutate chanceToRun="1" iterations="1" ifTile="Stone" setTile="Lava" chanceToMutate="0.3" chancePerTile ="0.3"/>
+			<CellularAutomata chanceToRun="1" iterations="1" ifTileType="Grass" ifNeighborTileType ="Grass" setTile="Stone" numOfNeighbors="1~999" chancePerTile ="0.3"/>
+			<FromImage iterations="1" fromImageFilePath="Data/Images/FromImageTest_JMSWUZHERE.png" uAlignment="0.0~0.0" vAlignment="0.0~0.0" rotations="0"/>
+			-->
+		</GenerationSteps>
+	</MapDefinition>
+	<MapDefinition name="Seaside" width="30" height="30" fillTile="Grass" edgeTile="Water">
+		<GenerationSteps>
+			<FromImage chanceToRun="0.6~1" iterations="1" ImageFileName="testImage4.png" uAlignment="0.5~0.5" vAlignment="0.5~0.5" rotations="0"/>
+			<Worm iterations="2" setTile="Lava" wormLength="10" numWorms = "20~35" />
+			<Mutate iterations="1" ifTile="Grass" setTile="Stone" chanceToMutate="0.6" chancePerTile ="0.2"/>
+			<Mutate chanceToRun="1" iterations="1" ifTile="Stone" setTile="Lava" chanceToMutate="0.3" chancePerTile ="0.3"/>
+			<CellularAutomata chanceToRun="1" iterations="1" ifTileType="Grass" ifNeighborTileType ="Grass" setTile="Stone" numOfNeighbors="1~999" chancePerTile ="0.3"/>
+			-->
+		</GenerationSteps>
+	</MapDefinition>
+</MapDefinitions>

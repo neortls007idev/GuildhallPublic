@@ -1,0 +1,57 @@
+<ActorDefinitions>
+
+	<ActorDefinition
+		name="Player"
+		faction="good"
+		physicsRadius="0.25"
+		localDrawBounds="-0.5,-0.3,0.5,1.033"
+		startPosition = "1.5,1.5"
+		defaultVelocity = "1.0,1.0"
+		canWalk = "true"
+		canSwim = "true"
+		canFly  = "false"
+		isDead  = "false"
+		isGarbage = "false"
+		SpriteCoords = "7,0"
+		>
+		<Movement>
+			<Walk speed="2.0"/>
+		</Movement>
+		<Health max="100" start="100"/>
+		<SpriteAnimSet SpriteSheet="KushnariovaCharacters_12x53.png" spriteLayout="12,53" fps="0.5">
+			<SpriteAnim Name="MoveEast"		spriteIndexes="3,4,5,4"/>
+			<SpriteAnim Name="MoveWest"		spriteIndexes="9,10,11,10"/>
+			<SpriteAnim Name="MoveNorth"	spriteIndexes="0,1,2,1"/>
+			<SpriteAnim Name="MoveSouth"	spriteIndexes="6,7,8,7"/>
+			<SpriteAnim Name="Idle"			spriteIndexes="6,7,8,7" fps="3"/>
+		</SpriteAnimSet>
+	</ActorDefinition>
+
+	<ActorDefinition 
+		name="Cultist"
+		faction="good"
+		physicsRadius="0.25"
+		localDrawBounds="-0.5,-0.3,0.5,1.033"
+		startPosition = "1.5,1.5"
+		defaultVelocity = "1.0,1.0"
+		canWalk = "true"
+		canSwim = "true"
+		canFly  = "false"
+		isDead  = "false"
+		isGarbage = "false"
+		SpriteCoords = "7,0"
+		>
+		<Movement>
+			<Walk speed="2.0"/>
+		</Movement>
+		<Health max="100" start="100"/>
+		<SpriteAnimSet SpriteSheet="KushnariovaCharacters_12x53.png" spriteLayout="12,53" fps="0.5">
+			<SpriteAnim Name="MoveEast"		spriteIndexes="3,4,5,4"/>
+			<SpriteAnim Name="MoveWest"		spriteIndexes="9,10,11,10"/>
+			<SpriteAnim Name="MoveNorth"	spriteIndexes="0,1,2,1"/>
+			<SpriteAnim Name="MoveSouth"	spriteIndexes="6,7,8,7"/>
+			<SpriteAnim Name="Idle"			spriteIndexes="6,7,8,7" fps="3"/>
+		</SpriteAnimSet>
+	</ActorDefinition>
+
+</ActorDefinitions>

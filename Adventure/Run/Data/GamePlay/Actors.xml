@@ -1,0 +1,50 @@
+<ActorDefinitions>
+
+	<ActorDefinition name="Player" faction="good">
+		<Size physicsRadius="0.25" localDrawBounds="-0.5,-0.3,0.5,1.033"/>
+		<Movement>
+			<Walk speed="2.0"/>
+		</Movement>
+		<Health max="100" start="100"/>
+		<SpriteAnimSet spriteSheet="KushnariovaCharacters_12x53.png" spriteLayout="12,53" fps="10">
+			<SpriteAnim name="MoveEast"		spriteIndexes="3,4,5,4"/>
+			<SpriteAnim name="MoveWest"		spriteIndexes="9,10,11,10"/>
+			<SpriteAnim name="MoveNorth"	spriteIndexes="0,1,2,1"/>
+			<SpriteAnim name="MoveSouth"	spriteIndexes="6,7,8,7"/>
+			<SpriteAnim name="Idle"				spriteIndexes="6,7,8,7" fps="3"/>
+		</SpriteAnimSet>
+	</ActorDefinition>
+
+	<ActorDefinition name="Villager1" faction="good">
+		<Size physicsRadius="0.25" localDrawBounds="-0.5,-0.3,0.5,1.033"/>
+		<Movement>
+			<Walk speed="2.0"/>
+		</Movement>
+		<Health max="100" start="100"/>
+		<SpriteAnimSet spriteSheet="KushnariovaCharacters_12x53.png" spriteLayout="12,53" fps="10">
+			<SpriteAnim name="MoveEast"		spriteIndexes="375,376,377,376"/>
+			<SpriteAnim name="MoveWest"		spriteIndexes="381,382,383,382"/>
+			<SpriteAnim name="MoveNorth"	spriteIndexes="372,373,374,373"/>
+			<SpriteAnim name="MoveSouth"	spriteIndexes="378,379,380,379"/>
+			<SpriteAnim name="Idle"				spriteIndexes="378,379,380,379" fps="3"/>
+		</SpriteAnimSet>
+	</ActorDefinition>
+
+	<ActorDefinition name="Cultist" faction="evil">
+		<Size physicsRadius="0.25" localDrawBounds="-0.5,-0.3,0.5,1.033"/>
+		<Movement>
+			<Walk speed="1.0"/>
+		</Movement>
+		<Health max="100" start="100"/>
+		<SpriteAnimSet spriteSheet="KushnariovaCharacters_12x53.png" spriteLayout="12,53" fps="10">
+			<SpriteAnim name="MoveEast"		spriteIndexes="63,64,65,64"/>
+			<SpriteAnim name="MoveWest"		spriteIndexes="69,70,71,70"/>
+			<SpriteAnim name="MoveNorth"	spriteIndexes="60,61,62,61"/>
+			<SpriteAnim name="MoveSouth"	spriteIndexes="66,67,68,67"/>
+			<SpriteAnim name="Idle"				spriteIndexes="66,67,68,67" fps="3"/>
+		</SpriteAnimSet>
+	</ActorDefinition>
+
+</ActorDefinitions>
+
+

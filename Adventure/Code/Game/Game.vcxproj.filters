@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{79fdbf1c-2233-4c46-93fe-35bb7ee72e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Entities">
+      <UniqueIdentifier>{3329ea6d-c86e-48d3-8692-1cbaaabb7222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\XML Data">
+      <UniqueIdentifier>{9136a33b-bc11-432d-a278-33908f08f95c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Map Generation">
+      <UniqueIdentifier>{d72f5b69-4c21-4f26-ab21-b91603de6fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Tile">
+      <UniqueIdentifier>{2a5e7687-844c-4810-b61d-7a30e05fee12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Gameplay\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="TheApp.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDefinition.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Gameplay\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorDefs.cpp">
+      <Filter>Gameplay\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenStep.cpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenStepMutate.cpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenStepWorm.cpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenStepCellularAutomata.cpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenStepFromImage.cpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenStepPerlinNoise.cpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenStepRoomsAndPaths.cpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMetaData.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Gameplay\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="TileDefinition.cpp">
+      <Filter>Gameplay\Tile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Gameplay\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="TheApp.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="World.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDefinition.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.hpp">
+      <Filter>Gameplay\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorDefs.hpp">
+      <Filter>Gameplay\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenStep.hpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenStepMutate.hpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenStepWorm.hpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenStepCellularAutomata.hpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenStepFromImage.hpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenStepPerlinNoise.hpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenStepRoomsAndPaths.hpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMetaData.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.hpp">
+      <Filter>Gameplay\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="TileDefinition.hpp">
+      <Filter>Gameplay\Tile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run\Data\GamePlay\ActorDefs.xml">
+      <Filter>Gameplay\XML Data</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\GamePlay\MapDefs.xml">
+      <Filter>Gameplay\XML Data</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\GamePlay\TileDefs.xml">
+      <Filter>Gameplay\XML Data</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Gameconfig.xml">
+      <Filter>Gameplay\XML Data</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

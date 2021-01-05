@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="General\Common">
+      <UniqueIdentifier>{af77665f-bd48-4c0f-9ad9-b88f0a2ce950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Entities">
+      <UniqueIdentifier>{3329ea6d-c86e-48d3-8692-1cbaaabb7222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Entities\Enemies">
+      <UniqueIdentifier>{32470a20-20a6-4029-9a22-77ee6d31e087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Entities\Player">
+      <UniqueIdentifier>{fbd5bc76-87d5-4bb2-9bc9-43a7d58cbbac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="TheApp.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroid.cpp">
+      <Filter>General\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>General\Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>General\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerShip.cpp">
+      <Filter>General\Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>General\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Entites\Enemies\Wasp.cpp">
+      <Filter>General\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Entites\Enemies\Bettle.cpp">
+      <Filter>General\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="AttractMode.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Entites\Debris.cpp">
+      <Filter>General\Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TheApp.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroid.hpp">
+      <Filter>General\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.hpp">
+      <Filter>General\Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>General\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerShip.hpp">
+      <Filter>General\Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>General\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Entites\Enemies\Wasp.hpp">
+      <Filter>General\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Entites\Enemies\bettle.hpp">
+      <Filter>General\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="AttractMode.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Entites\Debris.hpp">
+      <Filter>General\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="DebrisColors.hpp">
+      <Filter>General\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

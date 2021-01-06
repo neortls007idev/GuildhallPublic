@@ -1,0 +1,68 @@
+<TileDefinitions
+	tileSpriteSheet="Data/Images/Terrain_8x8.png"
+	tileSpriteLayout="8,8"
+	>
+	<TileDefinition
+		name="defaultTerrain"
+		colorInImageFile="255,255,255,255"
+		spriteCoords="1,0"
+		isSolid="false"
+	/>
+
+	<TileDefinition
+		name="edgeTileTerrain"
+		colorInImageFile="195,195,195,255"
+		spriteCoords="0,3"
+		isSolid="true"
+	/>
+
+	<TileDefinition
+		name="GrassTerrain"
+		colorInImageFile="0,80,0,255"
+		spriteCoords="1,0"
+		isSolid="false"
+	/>
+	
+	<TileDefinition
+		name="waterTerrain"
+		colorInImageFile="100,220,225,255"
+		spriteCoords="5,7"
+		isSolid="false"
+	/>
+	
+	<TileDefinition
+		name="lavaTerrain"
+		colorInImageFile="255,0,0,255"
+		spriteCoords="6,7"
+		isSolid="false"
+	/>
+	
+	<TileDefinition
+		name="mudTerrain"
+		colorInImageFile="197,123,26,255"
+		spriteCoords="4,2"
+		isSolid="false"
+	/>
+	
+	<TileDefinition
+		name="exitPosition"
+		colorInImageFile="127,0,255,255"
+		spriteCoords="1,7"
+		isSolid="false"
+	/>
+
+	<TileDefinition
+		name="exitAreaTerrain"
+		colorInImageFile="255,255,0,255"
+		spriteCoords="2,7"
+		isSolid="false"
+	/>
+	
+	<TileDefinition
+		name="startAreaTerrain"
+		colorInImageFile="127,127,127,255"
+		spriteCoords="3,6"
+		isSolid="false"
+	/>
+
+</TileDefinitions>

@@ -1,0 +1,9 @@
+<MapDefinitions>
+
+	<MapDefinition name="1_Level_001" width="48" height="27">
+		<GenerationSteps>
+			<FromImage iterations="1" ImageFileName="1_Level_001.png" uAlignment="0.0" vAlignment="0.0" rotations="0"/>
+		</GenerationSteps>
+	</MapDefinition>
+
+</MapDefinitions>

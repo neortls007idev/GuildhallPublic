@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{79fdbf1c-2233-4c46-93fe-35bb7ee72e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Entities">
+      <UniqueIdentifier>{3329ea6d-c86e-48d3-8692-1cbaaabb7222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Map Generation">
+      <UniqueIdentifier>{d72f5b69-4c21-4f26-ab21-b91603de6fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Tile">
+      <UniqueIdentifier>{2a5e7687-844c-4810-b61d-7a30e05fee12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plan">
+      <UniqueIdentifier>{fb3c2d91-9d66-43a8-ae12-0089460171e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plan\Proposal">
+      <UniqueIdentifier>{85b29b33-ada0-459a-aa4e-348d1dd67d0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Levels">
+      <UniqueIdentifier>{f51155d9-7e07-4b37-9c01-b0998b1e4a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows Resources">
+      <UniqueIdentifier>{e4fe4522-f092-4963-b87c-5499cb4b117c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameplaySystems">
+      <UniqueIdentifier>{c21bc7a5-d8ed-48f0-9be9-9ee8e8c4f71d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{9a37ba18-d9b6-4752-ba3d-44f06266dc82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Files">
+      <UniqueIdentifier>{73a1804a-ba90-4ba7-9d01-cb36b5828f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Files\XML Data">
+      <UniqueIdentifier>{9136a33b-bc11-432d-a278-33908f08f95c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="TheApp.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenStep.cpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenStepMutate.cpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenStepWorm.cpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenStepCellularAutomata.cpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenStepFromImage.cpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenStepPerlinNoise.cpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenStepRoomsAndPaths.cpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Gameplay\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="TileDefinition.cpp">
+      <Filter>Gameplay\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Gameplay\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Paddle.cpp">
+      <Filter>Gameplay\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Gameplay\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Gameplay\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDefinition.cpp">
+      <Filter>Gameplay\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="UISystem.cpp">
+      <Filter>GameplaySystems</Filter>
+    </ClCompile>
+    <ClCompile Include="UISystemStructs.cpp">
+      <Filter>GameplaySystems</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUps.cpp">
+      <Filter>Gameplay\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUpDefinition.cpp">
+      <Filter>Gameplay\Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="TheApp.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenStep.hpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenStepMutate.hpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenStepWorm.hpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenStepCellularAutomata.hpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenStepFromImage.hpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenStepPerlinNoise.hpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenStepRoomsAndPaths.hpp">
+      <Filter>Gameplay\Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.hpp">
+      <Filter>Gameplay\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="TileDefinition.hpp">
+      <Filter>Gameplay\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Gameplay\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Paddle.hpp">
+      <Filter>Gameplay\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.hpp">
+      <Filter>Gameplay\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.hpp">
+      <Filter>Gameplay\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDefinition.hpp">
+      <Filter>Gameplay\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Windows Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="UISystem.hpp">
+      <Filter>GameplaySystems</Filter>
+    </ClInclude>
+    <ClInclude Include="UISystemStructs.hpp">
+      <Filter>GameplaySystems</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUps.hpp">
+      <Filter>Gameplay\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUpDefinition.hpp">
+      <Filter>Gameplay\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\Plan\Proposal\1_Features.txt">
+      <Filter>Plan\Proposal</Filter>
+    </Text>
+    <Text Include="..\..\Plan\Proposal\2_Milestones.txt">
+      <Filter>Plan\Proposal</Filter>
+    </Text>
+    <Text Include="..\..\Plan\Proposal\3_Backlog.txt">
+      <Filter>Plan\Proposal</Filter>
+    </Text>
+    <Text Include="..\..\Plan\Proposal\4_Sprints.txt">
+      <Filter>Plan\Proposal</Filter>
+    </Text>
+    <Text Include="..\..\Plan\Proposal\5_Journal.txt">
+      <Filter>Plan\Proposal</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Plan\Proposal\Fantasy Ball - Rahul Gupta - DFS Proposal.docx">
+      <Filter>Plan\Proposal</Filter>
+    </None>
+    <None Include="..\..\Plan\Proposal\Fantasy Ball Prosopal Presentation.pptx">
+      <Filter>Plan\Proposal</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Icons.rc">
+      <Filter>Windows Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Run\Data\Icons\TitleBar\titleBarIcon.ico">
+      <Filter>Windows Resources</Filter>
+    </Image>
+    <Image Include="..\..\Run\Data\Icons\Cursors\BlueCursor.ico">
+      <Filter>Windows Resources</Filter>
+    </Image>
+    <Image Include="..\..\Run\Data\Icons\Cursors\RedCursor.ico">
+      <Filter>Windows Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run\Data\GamePlay\HighScores.xml">
+      <Filter>Data Files\XML Data</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\GamePlay\MapDefs.xml">
+      <Filter>Data Files\XML Data</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\GamePlay\PowerUpDefs.xml">
+      <Filter>Data Files\XML Data</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\GamePlay\TileDefs.xml">
+      <Filter>Data Files\XML Data</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Run\Data\Shaders\blur.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\branchlessComparison.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\combineImage.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\ConstantBuffers.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\default.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\defaultLitStageStructs.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\dissolve.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\fog.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\fresnel.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\InvertColor.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\projection.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\ShaderMathUtils.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\toneMap.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\uvDebugger.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\vMovementEffect.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

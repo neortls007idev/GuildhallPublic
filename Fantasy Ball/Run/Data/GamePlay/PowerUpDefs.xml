@@ -1,0 +1,61 @@
+<PowerUpDefinitions
+	PowerUpSpriteSheet="Data/Images/PowerUpsSpriteSheet2.png"
+	PowerUpSpriteLayout="4,3"
+	>
+	<PowerUpDefinition
+		name="2xBall"
+		color="255,0,0,255"
+		spriteCoords="0,0"
+		spawnProbablityRequirement="0.93"
+	/>
+
+	<PowerUpDefinition
+		name="3xBall"
+		color="0,255,0,255"
+		spriteCoords="1,0"
+		spawnProbablityRequirement="0.95"
+	/>
+
+	<PowerUpDefinition
+		name="8xBall"
+		color="0,0,255,255"
+		spriteCoords="2,0"
+		spawnProbablityRequirement="0.975"
+	/>
+
+	<PowerUpDefinition
+		name="BrickThrough"
+		color="255,255,0,255"
+		spriteCoords="0,1"
+		spawnProbablityRequirement="0.98"
+	/>
+
+	<PowerUpDefinition
+		name="AllVisible"
+		color="255,0,255,255"
+		spriteCoords="0,2"
+		spawnProbablityRequirement="0.963"
+	/>
+
+	<PowerUpDefinition
+		name="Allsoft"
+		color="255,0,127,255"
+		spriteCoords="1,2"
+		spawnProbablityRequirement="0.95"
+	/>
+
+	<PowerUpDefinition
+		name="ExtraLife"
+		color="255,127,0,255"
+		spriteCoords="3,0"
+		spawnProbablityRequirement="0.9875"
+	/>
+
+	<PowerUpDefinition
+		name="Death"
+		color="0,127,255,255"
+		spriteCoords="1,1"
+		spawnProbablityRequirement="0.98"
+	/>
+
+</PowerUpDefinitions>

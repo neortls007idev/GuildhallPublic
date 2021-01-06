@@ -1,0 +1,150 @@
+<TileDefinitions
+	tileSpriteSheet="Data/Images/bricks2SpriteSheet112x32.png"
+	tileSpriteLayout="2,5"
+	tileVFXSpriteSheet="Data/Images/VFXFlare192x108.png"
+	tileVFXSpriteLayout="5,7"
+	BallSpriteSheet="Data/Images/ballSpriteSheet.png"
+	BallSpriteLayout="6,6"
+	BallDefaultSpriteCoords="2,4"
+	>
+	<TileDefinition
+		name="NormalRed"
+		colorInImageFile="255,0,0,255"
+		spriteCoords="1,3"
+		VFXSpriteCoords="0,5"
+		BallSpriteCoords="1,0"
+		health="1"
+		healthToSolid="0"
+		isSolid="false"
+		isVisible="true"
+		visibleAtHealth="1"
+		screenshakeMinProbablity = "0.5"
+	/>
+
+	<TileDefinition
+		name="NormalGreen"
+		colorInImageFile="0,255,0,255"
+		spriteCoords="0,3"
+		VFXSpriteCoords="2,2"
+		BallSpriteCoords="0,1"
+		health="1"
+		healthToSolid="0"
+		isSolid="false"
+		isVisible="true"
+		visibleAtHealth="1"
+		screenshakeMinProbablity = "0.55"
+	/>
+
+	<TileDefinition
+		name="NormalBlue"
+		colorInImageFile="0,0,255,255"
+		spriteCoords="0,0"
+		VFXSpriteCoords="1,1"
+		BallSpriteCoords="4,5"
+		health="1"
+		healthToSolid="0"
+		isSolid="false"
+		isVisible="true"
+		visibleAtHealth="1"
+		screenshakeMinProbablity = "0.6"
+	/>
+
+	<TileDefinition
+		name="NormalYellow"
+		colorInImageFile="255,255,0,255"
+		spriteCoords="1,4"
+		VFXSpriteCoords="2,3"
+		BallSpriteCoords="1,1"
+		health="2"
+		healthToSolid="0"
+		isSolid="false"
+		isVisible="true"
+		visibleAtHealth="1"
+		screenshakeMinProbablity = "0.625"
+	/>
+
+	<TileDefinition
+		name="NormalMagenta"
+		colorInImageFile="255,0,255,255"
+		spriteCoords="0,4"
+		VFXSpriteCoords="0,4"
+		BallSpriteCoords="3,0"
+		health="2"
+		healthToSolid="0"
+		isSolid="false"
+		isVisible="true"
+		visibleAtHealth="1"
+		screenshakeMinProbablity = "0.675"
+	/>
+
+	<TileDefinition
+		name="NormalCyan"
+		colorInImageFile="0,255,255,255"
+		spriteCoords="0,1"
+		VFXSpriteCoords="3,4"
+		BallSpriteCoords="4,4"
+		health="2"
+		healthToSolid="0"
+		isSolid="false"
+		isVisible="false"
+		visibleAtHealth="1"
+		screenshakeMinProbablity = "0.725"
+	/>
+
+	<TileDefinition
+		name="NormalOrange"
+		colorInImageFile="255,127,0,255"
+		spriteCoords="0,1"
+		VFXSpriteCoords="0,0"
+		BallSpriteCoords="1,3"
+		health="3"
+		healthToSolid="1"
+		isSolid="false"
+		isVisible="false"
+		visibleAtHealth="1"
+		screenshakeMinProbablity = "0.775"
+	/>
+
+	<TileDefinition
+		name="NormalPink"
+		colorInImageFile="255,0,127,255"
+		spriteCoords="1,1"
+		VFXSpriteCoords="1,2"
+		BallSpriteCoords="4,3"
+		health="3"
+		healthToSolid="0"
+		isSolid="false"
+		isVisible="false"
+		visibleAtHealth="2"
+		screenshakeMinProbablity = "0.825"
+	/>
+
+	<TileDefinition
+		name="NormalPurple"
+		colorInImageFile="127,0,255,255"
+		spriteCoords="1,2"
+		VFXSpriteCoords="0,1"
+		BallSpriteCoords="3,1"
+		health="3"
+		healthToSolid="1"
+		isSolid="false"
+		isVisible="false"
+		visibleAtHealth="2"
+		screenshakeMinProbablity = "0.85"
+	/>
+
+	<TileDefinition
+		name="SteelGrey"
+		colorInImageFile="127,127,127,255"
+		spriteCoords="0,2"
+		VFXSpriteCoords="3,2"
+		BallSpriteCoords="3,5"
+		health="1"
+		healthToSolid="1"
+		isSolid="true"
+		isVisible="true"
+		visibleAtHealth="1"
+		screenshakeMinProbablity = "0.8"
+	/>
+
+</TileDefinitions>

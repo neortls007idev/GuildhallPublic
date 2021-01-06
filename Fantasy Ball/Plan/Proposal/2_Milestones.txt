@@ -1,0 +1,83 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fields
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Feature Id 	The feature to be included on this milestone
+Description	Copied from the feature
+==============================================================================================================================================================
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Feature/Task  Tags
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+* Stretch Goal - Dependent on game feel / results post implementation
+% Not originally planned.
+! Highest priority
+x Removed from original plan.
+==============================================================================================================================================================
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+MILESTONES
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================================================================
+06/15/2020
+Milestone 1
+==============================================================================================================================================================
+Feature Id	|	Feature Area	|			Description
+------------|-------------------|-----------------------------------------------------------------------------------------------------------------------------
+5			|	Game - Data		|	Data driven gameplay components like assets - tile, paddle, ball, tile types, paddle base size, paddle max size, etc.
+6			|	Game - Juice	|	Some basic ball and paddle powerups like expand paddle, shrink paddle, increase ball size, decrease ball size, mutiply balls, etc.
+7			|	Game - Physics	|	Simpler Physics system for collisions between ball and paddle and ball and the tiles. (the current system lacks performance).
+8			|	Testing			|	Stress testing Physics system for performance.
+27			|   Game - Level	|	Initial Test level Setup
+28			|	Testing			|	General Gameplay Testing
+10			|	Game - Juice	|	Integrating Particle system with tiles. Tile based particle effect on collision.
+11			|	Game - Juice	|	Screen-Shake effects. Screen Sahke on ball-tile collision.
+12			|	Game - Level	|	Finalizing 3 levels / level generation technique(painting the level or Pattern based PCG technique).
+16			|	Game - Juice	|	Integrating Particle system with the ball (particle effects for ball launch and collisoin with different tiles).
+29*			|	Game - Audio	|	Adding in test audio effects like rustle with world bounds collission.
+23			|	Game - Audio	|	Adding in audio effects for different tiles breaking and background audio.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================================================================
+06/29/2020
+Milestone 2
+==============================================================================================================================================================
+Feature Id	|	Feature Area	|			Description
+------------|-------------------|-----------------------------------------------------------------------------------------------------------------------------
+2			|	UI/Input		|	Player can use the Menu using Mouse or Keyboard.
+3			|	UI/Input		|	Non Persistent High Score system where players can enter their name for up to maximum of 10 top scores.
+4			|	UI				|	Main menu with the some sub menus like settings, controls ( only for display ), tutorials explaining the various tiles power ups and high score menu.
+13			|	Game - Mechanics|	Scoring mechanics based on how the tile is destroyed (math for how the score is calulated based on chaining and tile collison).
+14			|	UI				|	In game HUD to display score, level number and current lives.
+15			|	Game - Juice	|	Finalizing Powers (complete set of all the ball & paddle powerups/powerdowns).
+17			|	Game - Level	|	Environmental Hazards (like a lava tile that destroys the ball or reduces score every time you collide with it).
+18*			|	Game - Level	|	PCG for level generation (I’d like there to be patterns rather than random worms).( now deleted )
+28			|	Testing			|	General Gameplay Testing
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================================================================
+07/13/2020
+Milestone 3
+==============================================================================================================================================================
+Feature Id	|	Feature Area	|			Description
+------------|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+19			|	Game - Data		|	Saving High Score Data.
+20			|	UI				|	Refining Menus.
+21			|	UI				|	Game over screen displaying your score and displaying all the high scores where you can enter name if you beat a high score and a return to main menu button.
+22			|	Game - Mechanics|	RNG based Power Drop on tile breaks.
+24			|	Game - Audio	|	Audio for the Menus.
+25			|	Game - Level	|	Adding in More levels
+28			|	Testing			|	General Gameplay Testing
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================================================================
+07/21/2020
+Final Deliverable
+==============================================================================================================================================================
+Feature Id	|	Feature Area	|			Description
+------------|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+26			|	Game			|	Final polish and bug fixing.
+28			|	Testing			|	General Gameplay Testing
+29			|	UI				|	Pause Menu
+30			|	UI				|	Tutorials Menu dislaying various tile types and powers.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------

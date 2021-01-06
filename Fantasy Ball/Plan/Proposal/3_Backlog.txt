@@ -1,0 +1,86 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fields
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Task Id 	Unique id for sorting, searching, and grouping tasks
+Status 		Current status of this task, see legend
+Estimate 	Estimated time to complete this task, in hours
+Actual 		How much time was actually spent on this task, in hours
+Feature Id 	The feature corresponding to this task
+Description	Sufficient text to fully explain the work to be done
+==============================================================================================================================================================
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Status Codes
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+O Not Started
+/ In Progress
+X Complete
+< Sent to backlog
+> Carried to next sprint
+- Deleted
+==============================================================================================================================================================
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Feature/Task  Tags
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+* Stretch Goal - Dependent on game feel / results post implementation
+% Not originally planned.
+! Highest priority
+x Removed from original plan.
+==============================================================================================================================================================
+
+==============================================================================================================================================================
+BACKLOG
+==============================================================================================================================================================
+Task Id	|	Status 	|	Estimate  |	  Actual 	|	 Feature Area	  |	 Feature Id	 |	Description
+--------|-----------|-------------|-------------|---------------------|--------------|------------------------------------------------------------------------
+1		|	[0]		|	  3.0	  |	    2.0		|	Game - Level	  |		27		 |	Initial Test Level Setup
+2		|	[0]		|	  2.0	  |	    1.0		|	Game - Data		  |		5		 |  Data driving Tiles, Paddle & Ball
+3x		|	[0]x	|	  2.0x	  |	    0.5x	|	Game - Physics    |		7		 |  Simpler Physics system for collisions between ball and paddle and ball and the tiles.
+4		|	[0]		|	  0.5	  |	    0.5		|	Input			  |		1		 |	Player controls Paddle with Mouse Movement.
+5		|	[0]		|	  2.0	  |	    0.0		|	Testing			  |		8		 |	Updating Test Level & Stress testing Physics system for performance.
+6		|	[0]		|	  4.0	  |	    0.0		|	Engine			  |		-		 |  Basic UI System for Buttons and Labels.
+7		|	[0]		|	  1.5	  |	    0.0		| UI - Design & Setup |		4		 |  Main menu with the some sub menus like settings, controls ( only for display ).
+8		|	[0]		|	  2.0	  |	    0.0		|  UI - Asset Update  |		4		 |	Adding in first pass of menu assets to match the theme.
+9		|	[0]		|	  1.0	  |	    0.0		| UI - Design & Setup |		4		 |  High score menu.
+10		|	[0]		|	  1.0	  |	    0.0		|	UI/Input		  |		3		 |	Input Name on High Score Menu
+11		|	[0]		|	  1.0	  |	    0.0		|	UI/Input		  |		2		 |	Player can use the Menu using Mouse or Keyboard.
+12		|	[0]		|	  1.5	  |	    0.0		|	Game - Juice	  |		6		 |  Some basic ball and paddle powerups like expand paddle, shrink paddle, increase ball size, decrease ball size, mutiply balls.
+13		|	[0]		|	  4.0	  |	    0.0		|	Engine			  |		9		 |	Implement  2D - Particle System
+14		|	[0]		|	  1.0	  |	    0.0		|	Game - Juice	  |		10		 |	Create Particle Effects on ball-Tile Collision.
+15		|	[0]		|	  2.0	  |	    0.0		|	Game - Juice	  |		16		 |	Create Varying Particle Effects for different tiles.
+16*		|	[0]*	|	  2.5	  |	    0.0		|	Game - Level	  |		18*		 |  Implement & Test Pattern Based PCG Level Generation.
+17		|	[0]		|	  1.5	  |	    0.0		|	Game - Level	  |		12		 |  Adding in at least 3 more levels.
+18		|	[0]		|	  0.75	  |	    0.0		|	Game - Level	  |		12		 |  Hook up all the levels.
+19		|	[0]		|	  0.5	  |	    0.0		|	Game - Juice	  |		11		 |	Screen Shake effect for ball-tile collision.
+20		|	[0]		|	  0.75	  |	    0.0		|	Game - Mechanics  |		13		 |	Scoring mechanics based on how the tile is destroyed (paper math for how the score is calulated based on chaining and tile collison).
+21		|	[0]		|	  1.5	  |	    0.0		|	UI   - HUD		  |		14		 |	Display current score.
+22		|	[0]		|	  0.5	  |	    0.0		|	UI   - HUD		  |		14		 |	Display current level & lives.
+23		|	[0]		|	  3.0	  |	    0.0		|	Game - Juice	  |		15		 |	Implementing Various ball & paddle powerups.
+24		|	[0]		|	  0.75	  |	    0.0		|	Game - Juice	  |		16		 |	Create Varying Particle Effects for Ball Launch and Grab.
+25		|	[0]		|	  0.75	  |	    0.0		|	Game - Level	  |		17		 |  Implementing Environmental Hazards.
+26		|	[0]		|	  1.0	  |	    0.0		|	Game - Level	  |		17		 |  Integrating Environmental Hazards into the levels.
+27		|	[0]		|	  1.0	  |	    0.0		|	Testing			  |		28		 |  General Gameplay Testing
+28		|	[0]		|	  1.0	  |	    0.0		|	Game - Data		  |		19		 |  Saving High Score Data to be persistent.
+29		|	[0]		|	  1.0	  |	    0.0		|	UI				  |		20		 |	Refining/Updating Menus layouts.
+30		|	[0]		|	  0.75	  |	    0.0		|	UI				  |		20		 |	Refining/Updating Menus assets.
+31		|	[0]		|	  1.0	  |	    0.0		|	UI				  |		21		 |	Design Game over screen displaying your score and displaying all the high scores.
+32		|	[0]		|	  1.0	  |	    0.0		|	UI				  |		21		 |	Adding Name to high Score list if a high score is beaten.
+33		|	[0]		|	  0.75	  |	    0.0		|	UI				  |		21		 |  Return button to go back to main menu from the Game over screen.
+34		|	[0]		|	  1.0	  |	    0.0		|	UI				  |		29		 |	Design Pause Menu
+35		|	[0]		|	  1.0	  |	    0.0		|	UI				  |		29		 |  Functional Pause menu with option to return to main menu.
+36		|	[0]		|	  1.0	  |	    0.0		|	Game - Mechanics  |		22		 |	RNG based Power Drop on tile breaks.
+37		|	[0]		|	  1.0	  |	    0.0		|	Testing			  |		28		 |  General Gameplay & UI functionality Testing
+38		|	[0]		|	  1.0	  |	    0.0		|	Game - Audio	  |		23		 |	Adding in audio effects for different tiles breaking and background audio.
+39		|	[0]		|	  0.75	  |	    0.0		|	Game - Audio	  |		24		 |	Audio for the Menus.
+40		|	[0]		|	  0.75	  |	    0.0		|	Testing			  |		28		 |  Audio Testing with focus on audio overlaps & distortion.
+41		|	[0]		|	  -		  |	    0.0		|	Game - Level	  |		25		 |	Adding in More levels if PCG is not used for infinite level generation.(Number & quality of levels depends on time).
+42		|	[0]		|	  1.0	  |	    0.0		|	Game - Level	  |		27		 |	Create a chroma key for creating levels using paint.
+43		|	[0]		|	  1.0	  |	    0.0		|	UI				  |		30		 |	Design Tutorials Menu dislaying various tile types and powers.
+44		|	[0]		|	  1.0	  |	    0.0		|	UI				  |		30		 |	Integrating Tutorials Menu with main menu & pause menu.
+45		|	[0]		|	  -		  |	    0.0		|	Game			  |		26		 |	Final polish and bug fixing.
+46%		|	[0]%	|	  2.0%	  |	    1.33%	|	Game - Physics    |		7		 |  Gameplay Physics for collisions between ball and paddle and ball and the tiles.
+47%		|	[0]%	|	  2.0%	  |	    0.5%	|	Game - Level	  |		7		 |  Map generation using images
+--------------------|-------------|-------------|-------------------------------------------------------------------------------------------------------------
+Total 				|	 58.0	  |				|
+--------------------------------------------------------------------------------------------------------------------------------------------------------------

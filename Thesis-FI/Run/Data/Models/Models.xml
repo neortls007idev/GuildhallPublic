@@ -1,0 +1,52 @@
+<Models>
+	<Model path="Data/Models/scifiFighter/mesh.obj" 
+	       diffuse="Data/Models/scifiFighter/diffuse.jpg" 
+	       normals="Data/Models/scifiFighter/normal.png" 
+	       enumValue ="0" >
+		<BuildOptions generateTangent="true" generateNormals="true" optimizeVertexCount="false" />
+	</Model>
+	
+	<Model path="Data/Models/Luminaris_OBJ/Luminaris OBJ.obj"
+	       diffuse="Data/Models/Luminaris_OBJ/Luminaris Diffuse.png"
+	       normals="Data/Models/Luminaris_OBJ/Luminaris Normal.png"
+	       enumValue ="1" >
+		<BuildOptions generateTangent="true"
+		              generateNormals="true"
+		              optimizeVertexCount="false" />
+	</Model>
+	<!--
+	<Model path="Data/Models/SpaceShipW-cruiser/doubleWingSpaceTransporterHD.obj"
+	       diffuse=""
+	       normals=""
+	       enumValue ="2" >
+		<BuildOptions generateTangent="true"
+		              generateNormals="true"
+		              optimizeVertexCount="false" />
+	</Model>
+
+	<Model path="Data/Models/MiniShip/miniSpaceship.obj"
+	       diffuse=""
+	       normals=""
+	       enumValue ="3" >
+		<BuildOptions generateTangent="true"
+		              generateNormals="true"
+		              optimizeVertexCount="false" />
+	</Model>
+
+	<Model path="Data/Models/Starship/SS1.obj"
+	       diffuse="Data/Models/Starship/HULL.jpg"
+	       normals="Data/Models/Starship/HULL-N.jpg"
+	       enumValue ="4" >
+		<BuildOptions generateTangent="true"
+		              generateNormals="true"
+		              optimizeVertexCount="false" />
+	</Model>
+	
+	<Model path="Data/Models/WaterStrider/waterStrider.obj"
+	       diffuse=""
+	       normals=""
+	       enumValue ="5" >
+		<BuildOptions generateTangent="true" generateNormals="true" optimizeVertexCount="false" />
+	</Model>
+	-->
+</Models>

@@ -17,6 +17,9 @@
     <Filter Include="General\Entities\Player">
       <UniqueIdentifier>{fbd5bc76-87d5-4bb2-9bc9-43a7d58cbbac}</UniqueIdentifier>
     </Filter>
+    <Filter Include="General\Icon">
+      <UniqueIdentifier>{f3017839-1778-41a0-aacd-c92779b4c2f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main_Windows.cpp">
@@ -96,5 +99,18 @@
     <ClInclude Include="EngineBuildPreferences.hpp">
       <Filter>General</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>General\Icon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Starship.rc">
+      <Filter>General\Icon</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Run\Data\Icon\Starship.ico">
+      <Filter>General\Icon</Filter>
+    </Image>
   </ItemGroup>
 </Project>

@@ -11,12 +11,16 @@
 #include "Game/GameCommon.hpp"
 #include "Game/TheApp.hpp"
 
+#define WIN32_LEAN_AND_MEAN
+#include <windows.h>
+#include "Game/resource.h"
+
 //--------------------------------------------------------------------------------------------------------------------------------------------
 
-RenderContext*						g_theRenderer		= nullptr;
-TheApp*								g_theApp			= nullptr;
-InputSystem*						g_theInput			= nullptr;
-DevConsole*							g_theDevConsole		= nullptr;
+extern	RenderContext*						g_theRenderer;
+extern	InputSystem*						g_theInput;
+extern	DevConsole*							g_theDevConsole;
+		TheApp*								g_theApp			= nullptr;
 
 //--------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -82,6 +86,9 @@ void TheApp::Startup()
 	g_theRenderer->Startup( g_theWindow );
 	g_theCamera->SetOrthoView( Vec2::ZERO , Vec2( WORLD_SIZE_X , WORLD_SIZE_Y ) );
 	g_theRenderer->ClearScreen( BLACK );
+
+	void* gameIcon = reinterpret_cast< HICON >( ::LoadImage( GetModuleHandle( NULL ) , MAKEINTRESOURCE( IDI_ICON1 ) , IMAGE_ICON , 0 , 0 , LR_DEFAULTCOLOR | LR_SHARED | LR_DEFAULTSIZE ) );
+	g_theWindow->SetNewIcon( gameIcon );
 
 // 	if ( g_bitmapFont == nullptr )
 // 	{

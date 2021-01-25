@@ -218,8 +218,15 @@
     <ClInclude Include="Entity.hpp" />
     <ClInclude Include="Game.hpp" />
     <ClInclude Include="PlayerShip.hpp" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="TheApp.hpp" />
     <ClInclude Include="GameCommon.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Starship.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Run\Data\Icon\Starship.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

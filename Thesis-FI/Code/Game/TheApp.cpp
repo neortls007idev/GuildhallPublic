@@ -19,16 +19,16 @@
 
 //--------------------------------------------------------------------------------------------------------------------------------------------
 
-RenderContext*						g_theRenderer	= nullptr;
-TheApp*								g_theApp		= nullptr;
-InputSystem*						g_theInput		= nullptr;
-DevConsole*							g_theDevConsole = nullptr;
-Game*								g_theGame		= nullptr;
+extern RenderContext*				g_theRenderer;	
+extern InputSystem*					g_theInput;		
+extern DevConsole*					g_theDevConsole;
 extern ImGUISystem*					g_debugUI;			
 extern BitmapFont*					g_bitmapFont;
 extern DebugRenderObjectsManager*	g_currentManager;
 extern ParticleSystem3D*			g_theParticleSystem3D;
 extern JobSystem*					g_theJobSystem;
+	   TheApp*						g_theApp		= nullptr;
+	   Game*						g_theGame		= nullptr;
 
 //--------------------------------------------------------------------------------------------------------------------------------------------
 

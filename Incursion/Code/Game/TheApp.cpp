@@ -12,13 +12,13 @@
 
 //--------------------------------------------------------------------------------------------------------------------------------------------
 
-		AudioSystem*						g_theAudioSystem	= nullptr;
-		DevConsole*							g_theDevConsole		= nullptr;
-		InputSystem*						g_theInput			= nullptr;
-		RenderContext*						g_theRenderer		= nullptr;
+extern	AudioSystem*						g_theAudioSystem;	
+extern	DevConsole*							g_theDevConsole;	
+extern	InputSystem*						g_theInput;			
+extern	RenderContext*						g_theRenderer;		
+extern	BitmapFont*							g_bitmapFont;
 		TheApp*								g_theApp			= nullptr;
 		Game*								g_theGame			= nullptr;
-extern	BitmapFont*							g_bitmapFont;
 
 //--------------------------------------------------------------------------------------------------------------------------------------------
 

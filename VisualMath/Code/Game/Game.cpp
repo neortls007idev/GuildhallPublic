@@ -101,6 +101,9 @@ void Game::RandomizeDisc( Vec2 cameraBottomLeft , Vec2 cameraTopRight , RandomNu
 
 void Game::RandomizePolygon( Vec2 mins , Vec2 maxs , unsigned int count , RandomNumberGenerator rng )
 {
+	UNUSED( rng );
+	UNUSED( count );
+
 	m_polygon.clear();
 
 // 	for ( unsigned int pointIndex = 0; pointIndex < 4/*count*/ ; pointIndex++ )

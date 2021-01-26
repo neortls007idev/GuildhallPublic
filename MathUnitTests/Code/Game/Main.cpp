@@ -174,7 +174,7 @@ int main( int, char** )
 	printf( "========================================================================================\n");
 	printf( "\n" );
 
-//	system( "pause" ); // block and wait for keypress; no longer needed since VS2019 now automatically pauses
+	system( "pause" ); // block and wait for keypress; no longer needed since VS2019 now automatically pauses
 	return 0;
 }
 

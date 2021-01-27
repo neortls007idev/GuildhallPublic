@@ -135,7 +135,7 @@ Game::Game()
 	m_unitCubeMesh = new GPUMesh( g_theRenderer );
 	
 	//m_cubeMapex = g_theRenderer->CreateTextureCubeFromFile( "Data/Images/CubeMaps/test_sky.png" );
-	m_cubeMapex = g_theRenderer->CreateTextureCubeFromFile( "Data/Images/CubeMaps/galaxy2.png" );
+	m_cubeMapex = g_theRenderer->GetOrCreateTextureCubeFromFile( "Data/Images/CubeMaps/galaxy2.png" );
 	m_cubeMapTest = g_theRenderer->GetOrCreateShader( "Data/Shaders/CubeMap.hlsl" );
 
 	//std::vector<VertexMaster>	cubeMeshVerts;

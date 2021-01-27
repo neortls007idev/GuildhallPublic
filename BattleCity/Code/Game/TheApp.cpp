@@ -350,7 +350,7 @@ STATIC bool TheApp::StartMultiplayerServer( EventArgs& args )
 
 	LOG_SYSMESSAGE( "Stopping Current Game" );
 	int port = args.GetValue( "port" , 48000 );
-	
+	UNUSED( port );
 	if( g_theAuthServer != nullptr )
 	{
 		SAFE_RELEASE_POINTER( g_theAuthServer->m_singlePlayerGame );
@@ -395,7 +395,7 @@ STATIC bool TheApp::ConnectToMultiplayerServer( EventArgs& args )
 	LOG_SYSMESSAGE( "Stopping Current Game" );
 	std::string ipAddr = args.GetValue( "ipaddr" , "127.0.0.1" );
 	int port = args.GetValue( "port" , 48000 );
-
+	UNUSED( port );
 	if ( g_theAuthServer != nullptr )
 	{
 		SAFE_RELEASE_POINTER( g_theAuthServer->m_singlePlayerGame );

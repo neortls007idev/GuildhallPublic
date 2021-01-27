@@ -66,6 +66,7 @@ void Game::UpdateGameplayFromXbox()
 	if ( !controller.IsConnected() )
 		return;
 	const KeyButtonState& startButton = controller.GetButtonState( XBOX_BUTTON_ID_START );
+	UNUSED( startButton );
 	
 }
 
@@ -135,6 +136,7 @@ void Game::UpdateCamera()
 
 void Game::AddScreenShakeIntensity( float deltaShakeIntensity )
 {
+	UNUSED( deltaShakeIntensity );
 	//m_screenShakeIntensity += deltaShakeIntensity;
 	//clamp it!
 }

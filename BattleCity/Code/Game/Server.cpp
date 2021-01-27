@@ -57,7 +57,7 @@ void Server::BeginFrame()
 
 void Server::Update( float deltaSeconds )
 {
-
+	UNUSED( deltaSeconds );
 }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------
@@ -143,6 +143,7 @@ Game* Server::GetGame()
 
 void Server::ParseReceivedMessages( std::vector< std::string > messageBuffer , bool isAuthserver )
 {
+	UNUSED( isAuthserver );
 	if ( m_gameType == MULTIPLAYER && m_isRemoteClientConnectionComplete )
 	{
 		for ( int index = 0; index < messageBuffer.size() ; index++ )
@@ -165,7 +166,7 @@ void Server::ParseReceivedMessages( std::vector< std::string > messageBuffer , b
 				}
 
 				int frameID = atoi( data[ D_FRAME_ID ].c_str() );
-				
+				UNUSED( frameID );
 				//if ( isAuthserver && ( frameID < m_frameID ) )
 				//{
 				//	continue;

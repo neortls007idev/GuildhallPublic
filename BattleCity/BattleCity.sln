@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IncursionNetworked", "Code\Game\Game.vcxproj", "{58DEE0BF-891C-45CD-A597-C76EA227DEAA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BattleCity", "Code\Game\Game.vcxproj", "{58DEE0BF-891C-45CD-A597-C76EA227DEAA}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "..\Engine\Code\Engine\Engine.vcxproj", "{C75A1D18-5753-4C0C-BCD9-8D126DFEE1D6}"
 EndProject

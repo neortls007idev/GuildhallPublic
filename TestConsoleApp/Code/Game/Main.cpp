@@ -17,9 +17,7 @@
 //			GLOBAL VARIABLES
 //--------------------------------------------------------------------------------------------------------------------------------------------
 
-InputSystem*				g_theInput						= nullptr;
-RenderContext*				g_theRenderer					= nullptr;
-DevConsole*					g_theDevConsole					= nullptr;
+extern InputSystem*			g_theInput;
 extern JobSystem*			g_theJobSystem;
 Window*						g_theWindow						= nullptr;
 

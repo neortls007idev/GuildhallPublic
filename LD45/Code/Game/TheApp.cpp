@@ -14,12 +14,12 @@
 //			GLOBAL VARIABLES
 //--------------------------------------------------------------------------------------------------------------------------------------------
 
-InputSystem* g_theInput = nullptr;
-RenderContext* g_theRenderer = nullptr;
-AudioSystem* g_theAudioSystem = nullptr;
-TheApp* g_theApp = nullptr;
-Game* g_theGame = nullptr;
-DevConsole* g_theDevConsole = nullptr;
+extern InputSystem*		g_theInput;
+extern RenderContext*	g_theRenderer;
+extern AudioSystem*		g_theAudioSystem;		
+extern DevConsole*		g_theDevConsole;			
+	   TheApp*			g_theApp			= nullptr;
+	   Game*			g_theGame			= nullptr;
 
 //--------------------------------------------------------------------------------------------------------------------------------------------
 

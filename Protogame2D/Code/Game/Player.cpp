@@ -100,7 +100,6 @@ void Player::checkKeyboardKeyPressForMovement( float deltaSeconds )
 	if ( g_theInput->IsKeyHeldDown( 'F' ) ) 
 	{
 		RotateTankRight( deltaSeconds );
-
 	}
 	if ( g_theInput->IsKeyHeldDown( 'D' ) )
 	{
@@ -253,5 +252,4 @@ void Player::InitializePlayerMemberVariables()
 	m_physicsRadius = 0.2f;
 	m_cosmeticRadius = 0.4f;
 	m_age = 3.0f;
-
 }

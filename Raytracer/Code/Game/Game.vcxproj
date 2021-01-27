@@ -193,16 +193,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="GameCommon.cpp" />
-    <ClCompile Include="TheApp.cpp" />
     <ClCompile Include="Main_Windows.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EngineBuildPreferences.hpp" />
-    <ClInclude Include="Game.hpp" />
-    <ClInclude Include="TheApp.hpp" />
-    <ClInclude Include="GameCommon.hpp" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="..\..\Run\Data\Shaders\bitangentLit.hlsl">

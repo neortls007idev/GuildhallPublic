@@ -24,13 +24,13 @@
 //			GLOBAL VARIABLES
 //--------------------------------------------------------------------------------------------------------------------------------------------
 
-InputSystem*				g_theInput						= nullptr;
-RenderContext*				g_theRenderer					= nullptr;
-AudioSystem*				g_theAudioSystem				= nullptr;
+extern InputSystem*			g_theInput;						
+extern RenderContext*		g_theRenderer;					
+extern AudioSystem*			g_theAudioSystem;				
+extern DevConsole*			g_theDevConsole;				
+extern ParticleSystem2D*	g_theParticleSystem2D;
 TheApp*						g_theApp						= nullptr;
 Game*						g_theGame						= nullptr;
-DevConsole*					g_theDevConsole					= nullptr;
-ParticleSystem2D*			g_theParticleSystem2D			= nullptr;
 UISystem*					g_theGamplayUISystem			= nullptr;
 //JobSystem*					g_theJobSystem					= nullptr;
 

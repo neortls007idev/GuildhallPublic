@@ -239,11 +239,11 @@ void Game::Render() const
 {
 	Texture* backBuffer		= g_theRenderer->m_swapChain->GetBackBuffer();
 	Texture* colorTarget	= g_theRenderer->GetOrCreatematchingRenderTarget( backBuffer );
-	Texture* finalImage		= g_theRenderer->GetOrCreatematchingRenderTarget( colorTarget );
-
+	Texture* finalImage		= g_theRenderer->GetOrCreatematchingRenderTarget( backBuffer );
+	
 	m_gameCamera.SetColorTarget( 0 , colorTarget );
 	m_gameCamera.SetColorTarget( 1 , finalImage );
-
+	
 	g_theRenderer->BeginCamera( m_gameCamera );
 	m_gameCamera.CreateMatchingDepthStencilTarget(); 
 	g_theRenderer->BindDepthStencil( m_gameCamera.GetDepthStencilTarget() );
@@ -276,7 +276,7 @@ void Game::Render() const
 	g_theRenderer->SetDepthTest( COMPARE_ALWAYS , false );
 	g_theRenderer->SetModelMatrix( m_compassMeshTransform.GetAsMatrix() );
 	g_theRenderer->DrawMesh( m_basisMesh );
-	
+		
 	g_theRenderer->EndCamera( m_gameCamera );
 
 	g_theRenderer->StartEffect( finalImage , colorTarget , m_imageEffectShader );
@@ -292,13 +292,14 @@ void Game::Render() const
 
 	DebugRenderWorldToCamera( &m_gameCamera );
 	DebugRenderScreenTo( nullptr );
+	m_gameCamera.SetClearMode( CLEAR_COLOR_BIT | CLEAR_DEPTH_BIT | CLEAR_STENCIL_BIT , BLACK , 1.f , 0 );
 }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------
 
 void Game::RenderUI() const
 {
-	Texture* backBuffer		= g_theRenderer->m_swapChain->GetBackBuffer();
+	Texture* backBuffer	 = g_theRenderer->m_swapChain->GetBackBuffer();
 	Texture* colorTarget = g_theRenderer->GetOrCreatematchingRenderTarget( backBuffer );
 	m_uiCamera.SetColorTarget( 0 , colorTarget );
 }
